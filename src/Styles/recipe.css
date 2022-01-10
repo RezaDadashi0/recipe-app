@@ -1,0 +1,28 @@
+.recipe {
+  padding: 40px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  width: 35%;
+  border: 1px solid orange;
+  color: #444;
+  background-color: lightcyan;
+}
+
+.recipe h1 {
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.recipe .text-gray {
+  color: gray;
+  font-weight: 400;
+}
+
+.recipe .contolrols {
+  margin-top: 50px;
+  display: flex;
+}
+
+.text-indent {
+  text-indent: 20px;
+}

@@ -1,0 +1,61 @@
+.button {
+  padding: 8px 50px;
+  color: #fcfcfc;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.4s ease;
+  text-align: center;
+}
+
+.button:hover {
+  filter: brightness(110%);
+}
+
+.button.edit,
+.button.save {
+  background-color: skyblue;
+  flex: 1;
+}
+
+.button.ingredient__add {
+  background-color: skyblue;
+  flex: 1;
+  border-radius: 4px;
+  margin-left: 4px;
+  padding: 10px;
+}
+
+.button.delete {
+  background-color: tomato;
+  margin-left: 20px;
+  flex: 1;
+}
+
+.button.x {
+  background-color: tomato;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.button.add {
+  background-color: silver;
+  padding: 14px 50px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 45%;
+}
+
+.contolrols {
+  margin-top: 50px;
+  display: flex;
+}
+
+.button.increment,
+.button.decrement {
+  padding: 10px 20px;
+  color: antiquewhite;
+  background-color: lightgray;
+  border-radius: 0;
+}
